@@ -15,7 +15,7 @@ import os
 import pandas as pd
 import streamlit as st
 from langchain.llms import OpenAI
-from langchain.agents.agent_types import AgentType
+# from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents import create_pandas_dataframe_agent
 
 # Set the OpenAI API key (Consider using Streamlit secrets for better security)
