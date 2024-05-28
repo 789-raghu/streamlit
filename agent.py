@@ -1,3 +1,13 @@
+import sys
+import subprocesses
+
+requiremnts = ["pandas",
+              "streamlit",
+              "langchain",
+              "langchain_experimental"]
+for lib in requirements:
+    subprocess.check_call(["pip","install",lib])
+
 import os
 import pandas as pd
 import streamlit as st
