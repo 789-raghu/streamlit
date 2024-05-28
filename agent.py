@@ -1,5 +1,5 @@
 import sys
-import subprocesses
+import subprocess
 
 requiremnts = ["pandas",
               "streamlit",
