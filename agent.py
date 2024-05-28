@@ -1,7 +1,7 @@
 import sys
 import subprocess
 
-requiremnts = ["pandas",
+requirements = ["pandas",
               "streamlit",
               "langchain",
               "langchain_experimental"]
