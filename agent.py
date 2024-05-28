@@ -1,7 +1,8 @@
 import os
 import pandas as pd
 import streamlit as st
-from langchain_openai import ChatOpenAI, OpenAI
+from langchain_openai import OpenAI
+#from langchain_openai import ChatOpenAI
 from langchain.agents.agent_types import AgentType
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
